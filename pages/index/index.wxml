@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <map id="ofoMap" latitude="{{latitude}}"
+  longitude="{{longitude}}" scale="{{scale}}"
+  bindregionchange="bindregionchange"
+  marks = "{{marks}}" controls="{{controls}}"
+  bindcontroltap="bindcontroltap"
+   show-location>
+  </map>
+</view>

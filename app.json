@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/wallet/wallet",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "yellow",
+    "navigationBarTitleText": "ofo共享单车",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#515151",
+    "backgroundColor": "#fff",
+    "borderStyle": "#999",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/bike_nor.png",
+        "selectedIconPath": "images/bike_sel.png",
+        "text": "用车"
+      },
+      {
+        "pagePath": "pages/wallet/wallet",
+        "iconPath": "images/wallet_nor.png",
+        "selectedIconPath": "images/wallet_sel.png",
+        "text": "钱包"
+      }
+    ]
+  }
+}

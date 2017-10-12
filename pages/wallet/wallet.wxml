@@ -1,0 +1,47 @@
+<!--pages/wallet/wallet.wxml-->
+<view class="container">
+
+    <view class="header">
+        <view class="header-balance">我的余额（元）</view>
+        <view class="balance-amount">5</view>
+    </view>
+    <view class="header-rechange">
+            <view class="rechange-btn">
+                充 值
+            </view>
+        </view>
+
+    <view class="weui-cells">
+        <view class="weui-cell weui-cell_access">
+            <view class="weui-cell__bd"><view>我的用车劵</view></view>
+            <view class="weui-cell__ft">0 张 </view>
+        </view>
+
+        <view class="weui-cell weui-cell_access">
+            <view class="weui-cell__bd"><view>我的卡包</view></view>
+            <view class="weui-cell__ft">剩余免费骑行天数：0天  </view>
+        </view>
+
+        <view class="weui-cell weui-cell_access">
+            <view class="weui-cell__bd"><view>我的红包</view></view>
+            <view class="weui-cell__ft">红包区活动 </view>
+        </view>
+
+        <view class="weui-cell weui-cell_access">
+            <view class="weui-cell__bd"><view>我的优惠码</view></view>
+            <view class="weui-cell__ft">兑换优惠码 </view>
+        </view>
+    </view>
+
+    <view class="weui-cells">
+        <view class="weui-cell weui-cell_access">
+            <view class="weui-cell__bd"><view>我的手机号</view></view>
+            <view class="weui-cell__ft">15797675808 </view>
+        </view>
+
+        <view class="weui-cell weui-cell_access">
+            <view class="weui-cell__bd"><view>我的押金</view></view>
+            <view class="weui-cell__ft">暂未缴纳押金 </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,75 @@
+/* pages/wallet/wallet.wxss */
+.container{
+    width: 100%;
+    height: 100%;
+    background: #F6F6F6;
+    box-sizing: border-box;
+    padding-bottom: 30rpx;
+}
+.header{
+    width: 100%;
+    height: 200rpx;
+    padding-bottom: 30rpx;
+    background: #fff;
+    font-family: "MicrosoftYaHei";
+}
+.header-balance{
+    width: 100%;
+    text-align: center;
+    font-size: 36rpx;
+    color: #979797;
+    line-height: 70rpx;
+}
+.balance-amount{
+    width: 100%;
+    font-size: 90rpx;
+    color: #40320d;
+    text-align: center;
+    line-height: 90rpx;
+    height: 90rpx;
+}
+.header-rechange{
+    width: 100%;
+    height: 130rpx;
+    background: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rechange-btn{
+    width: 550rpx;
+    height: 80rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 44rpx;
+    color: #000;
+    border-radius: 40rpx;
+    background: #ffd700;
+    box-shadow: 5rpx 20rpx 100rpx #f7d700;
+}
+.weui-cells{
+    padding-right: 30rpx;
+    box-sizing: border-box;
+}
+.weui-cell__ft{
+    font-size: 30rpx;
+}
+.weui-cell__ft:after {
+    content: " ";
+    display: inline-block;
+    height: 6px;
+    width: 6px;
+    border-width: 2px 2px 0 0;
+    border-color: #C8C8CD;
+    border-style: solid;
+    -webkit-transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    position: relative;
+    top: -2px;
+    position: absolute;
+    top: 50%;
+    margin-top: -4px;
+    right: 2px;
+}
+
