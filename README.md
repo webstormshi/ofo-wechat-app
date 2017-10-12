@@ -1,0 +1,2 @@
+# ofoWXApplet
+基于weui框架和腾讯地图的ofo共享单车微信小程序
